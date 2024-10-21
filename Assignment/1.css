@@ -1,0 +1,25 @@
+.d1 {
+    width: 800px;
+    height: 500px;
+    margin: 100px 0 0 300px;
+    background-color: blueviolet;
+    position: relative;
+    padding: 20px;
+}
+
+#btn {
+    height: 30px;
+    width: 70px;
+}
+
+.bulb {
+    width: 150px;
+    height: 150px;
+    background: url('https://pics.clipartpng.com/midle/Yellow_Light_Bulb_PNG_Clip_Art-2108.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}

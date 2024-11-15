@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form-container" id="formContainer">
+        <h2>Resume Builder</h2>
+        <form id="resumeForm">
+            <label for="resumeName">Name</label>
+            <input type="text" id="resumeName" required> <br>
+
+            <label for="resumeEmail">Email</label>
+            <input type="email" id="resumeEmail" required> <br>
+
+            <label for="resumePhone">Phone</label>
+            <input type="tel" id="resumePhone" required> <br>
+
+            <label for="resumeLinkedIn">LinkedIn ID</label>
+            <input type="text" id="resumeLinkedIn" required> <br>
+
+            <label for="resumeGithub">GitHub ID</label>
+            <input type="text" id="resumeGithub" required> <br>
+
+            <label for="resumeExperience">Experience</label>
+            <input type="text" id="resumeExperience" required> <br>
+
+            <label for="resumeEducation">Education</label>
+            <input type="text" id="resumeEducation" required> <br>
+
+            <label for="resumeImage">Upload Photo</label>
+            <input type="file" id="resumeImage" accept="image/*" required> <br>
+
+            <button type="button" id="generateResumeButton">Generate Resume</button>
+        </form>
+    </div>
+
+    <div id="resumePreview" class="resume-preview" style="display: none;">
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

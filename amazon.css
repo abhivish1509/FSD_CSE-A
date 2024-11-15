@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav img{
+    height: 50px;
+    width: 200px;
+}
+.nav input{
+    padding-left: 10px;
+    width: 700px;
+    height: 50px;
+    /* position: absolute; */
+}
+.nav a{
+    text-align: center;
+}
+.nav2{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.84);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbar{
+    position: relative;
+}
+.yellow{
+    height: 53px;
+    width: 50px;
+    background-color: orange;
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+}
+.container{
+    margin-top: 100px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 10px;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.card2{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.card3{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.card4{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.card-child{
+    height: 180px;
+    width: 180px;
+    /* background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px ); */
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+.card-child img{
+    height: 100%;
+    width: 100%;
+}

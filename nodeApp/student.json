@@ -1,17 +1,22 @@
 [
   {
-    "name": "Abhishek",
-    "email": "abkvish1509@gmail.com",
-    "password": "1234567"
-  },
-  {
     "name": "Abhi",
     "email": "abkvish11509@gmail.com",
     "password": "1234567"
   },
   {
-    "name": "Akash",
-    "email": "abhishekvishwakarma1509@gmail.com",
-    "password": "19239"
+    "name": "Abhishek",
+    "email": "abcd@gmail.com",
+    "password": "1234567"
+  },
+  {
+    "name": "Abhishek",
+    "email": "abcdefgh@gmail.com",
+    "password": "1234567"
+  },
+  {
+    "name": "cristiano ronaldo",
+    "email": "c7@gmail.com",
+    "password": "1234567"
   }
 ]

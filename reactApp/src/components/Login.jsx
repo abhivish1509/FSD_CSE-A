@@ -7,7 +7,7 @@ function Login() {
     const email = formData.get("email");
     const password = formData.get("password");
 
-    alert(`Email: ${email}\nPassword: ${password}`);
+    // alert(`Email: ${email}\nPassword: ${password}`);
 
     const response = await fetch("http://localhost:3000/login", {
       method: "POST",

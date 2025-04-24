@@ -7,9 +7,7 @@ function RegistrationForm() {
     const name = formData.get("name");
     const email = formData.get("email");
     const password = formData.get("password");
-
-    alert(`Name: ${name}\nEmail: ${email}\nPassword: ${password}`);
-
+  
     fetch("http://localhost:3000/register", {
       method: "POST",
       body: JSON.stringify({ name, email, password }),
@@ -17,10 +15,11 @@ function RegistrationForm() {
         "Content-Type": "application/json",
       },
     })
-    .then(response => response.json())
-    .then(data => console.log("Success:", data))
-    .catch(error => console.error("Error:", error));
+      .then((response) => response.json())
+      .then((data) => alert(data.msg))
+      .catch((error) => alert("Error: " + error));
   }
+  
 
   return (
     <Box
